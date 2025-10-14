@@ -1,10 +1,10 @@
-
+import BrandLogo from '../assets/logo.png'
 
 export function HeaderLogoNav() {
   return (
     <div className="nav-bar" >
       <div className="brand-name" >
-        <img src="" alt="" />
+        <img src={BrandLogo} alt="" />
         <p>Flux Grow</p>
       </div>
       <div className="links" >
