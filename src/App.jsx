@@ -1,10 +1,11 @@
 import './App.css'
-import { HeroOverAll } from './component/hero'
+import { HeaderLogoNav } from './component/Header'
+
 
 function App() {
   return (
     <div className='app-container'>
-      <HeroOverAll />
+      <HeaderLogoNav />
     </div>
   )
 }
