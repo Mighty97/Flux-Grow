@@ -1,11 +1,14 @@
 .nav-bar {
   border: 2px solid white;
   display: flex;
+  padding: 19px 80px;
 }
 
 .brand-name {
   display: flex;
   align-items: start;
+  border: 2px solid red;
+  padding: 6.5px 0;
 }
 
 .brand-logo {
@@ -19,22 +22,30 @@
 
 .links {
   flex-grow: 1;
-  justify-content: center;
+  border: 2px solid green;
+  padding: 6.5px 0;
 }
 
 .links ul {
   display: flex;
   flex-direction: row;
   margin: 0;
+  justify-content: center;
+  padding-left: 0;
 
 }
 
 .links ul li {
   list-style: none;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
 .links ul li a {
   text-decoration: none;
   color: grey;
 } 
+
+.buttons {
+   border: 2px solid orange;
+   padding: 6.5px 0;
+}
