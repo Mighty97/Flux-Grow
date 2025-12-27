@@ -3,11 +3,11 @@ import './Header.css'
 
 export function HeaderLogoNav() {
   return (
-    <div className="nav-bar" >
+    <div className="nav-bar" > <a href='' >
       <div className="brand-name" >
-        <a href='' ><img className='brand-logo' src={BrandLogo} alt="" />
-        <p className='brand-name-text' >Flux Grow</p></a>
-      </div>
+       <img className='brand-logo' src={BrandLogo} alt="" />
+        <p className='brand-name-text' >Flux Grow</p>
+      </div></a>
       <div className="links" >
         <ul>
           <li>
