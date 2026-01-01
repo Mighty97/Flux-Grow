@@ -8,6 +8,7 @@ export function HeaderLogoNav() {
        <img className='brand-logo' src={BrandLogo} alt="" />
         <p className='brand-name-text' >Flux Grow</p>
       </div></a>
+      
       <div className="links" >
         <ul>
           <li>
